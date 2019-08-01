@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187CA72522F3270A000A4191 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187CA72422F3270A000A4191 /* AppDelegate.m */; };
+		187CA72822F3270A000A4191 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187CA72722F3270A000A4191 /* ViewController.m */; };
+		187CA72B22F3270B000A4191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187CA72922F3270B000A4191 /* Main.storyboard */; };
+		187CA72D22F3270D000A4191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187CA72C22F3270D000A4191 /* Assets.xcassets */; };
+		187CA73022F3270D000A4191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187CA72E22F3270D000A4191 /* LaunchScreen.storyboard */; };
+		187CA73322F3270D000A4191 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187CA73222F3270D000A4191 /* main.m */; };
+		187CA73D22F3270D000A4191 /* BankKataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187CA73C22F3270D000A4191 /* BankKataTests.m */; };
+		187CA74822F3274F000A4191 /* AccountServiceShould.m in Sources */ = {isa = PBXBuildFile; fileRef = 187CA74722F3274F000A4191 /* AccountServiceShould.m */; };
+		187CA74B22F32B05000A4191 /* OCMockitoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187CA74922F32B05000A4191 /* OCMockitoIOS.framework */; };
+		187CA74C22F32B05000A4191 /* OCMockitoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187CA74922F32B05000A4191 /* OCMockitoIOS.framework */; };
+		187CA74D22F32B05000A4191 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187CA74A22F32B05000A4191 /* OCHamcrestIOS.framework */; };
+		187CA74E22F32B05000A4191 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187CA74A22F32B05000A4191 /* OCHamcrestIOS.framework */; };
+		187CA75222F32D01000A4191 /* PrintStatementFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 187CA75122F32D01000A4191 /* PrintStatementFeature.m */; };
+		187CA75522F337E7000A4191 /* Console.m in Sources */ = {isa = PBXBuildFile; fileRef = 187CA75422F337E7000A4191 /* Console.m */; };
+		187CA75622F337E7000A4191 /* Console.m in Sources */ = {isa = PBXBuildFile; fileRef = 187CA75422F337E7000A4191 /* Console.m */; };
+		187CA75922F338CC000A4191 /* AccountService.m in Sources */ = {isa = PBXBuildFile; fileRef = 187CA75822F338CC000A4191 /* AccountService.m */; };
+		187CA75D22F34630000A4191 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 187CA75C22F34630000A4191 /* Transaction.m */; };
+		187CA75E22F34630000A4191 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 187CA75C22F34630000A4191 /* Transaction.m */; };
+		187CA76122F3475E000A4191 /* DateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 187CA76022F3475E000A4191 /* DateHelper.m */; };
+		187CA76222F3475E000A4191 /* DateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 187CA76022F3475E000A4191 /* DateHelper.m */; };
+		187CA76422F348AB000A4191 /* TranscationStoreShould.m in Sources */ = {isa = PBXBuildFile; fileRef = 187CA76322F348AB000A4191 /* TranscationStoreShould.m */; };
+		187CA76722F34980000A4191 /* TranscationStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 187CA76622F34980000A4191 /* TranscationStore.m */; };
+		187CA76822F34980000A4191 /* TranscationStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 187CA76622F34980000A4191 /* TranscationStore.m */; };
+		187CA76B22F35457000A4191 /* StatementPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 187CA76A22F35457000A4191 /* StatementPrinter.m */; };
+		187CA76C22F35457000A4191 /* StatementPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 187CA76A22F35457000A4191 /* StatementPrinter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187CA73922F3270D000A4191 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187CA71822F3270A000A4191 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187CA71F22F3270A000A4191;
+			remoteInfo = BankKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187CA72022F3270A000A4191 /* BankKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187CA72322F3270A000A4191 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187CA72422F3270A000A4191 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187CA72622F3270A000A4191 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		187CA72722F3270A000A4191 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		187CA72A22F3270B000A4191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187CA72C22F3270D000A4191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187CA72F22F3270D000A4191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187CA73122F3270D000A4191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187CA73222F3270D000A4191 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187CA73822F3270D000A4191 /* BankKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187CA73C22F3270D000A4191 /* BankKataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankKataTests.m; sourceTree = "<group>"; };
+		187CA73E22F3270D000A4191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187CA74722F3274F000A4191 /* AccountServiceShould.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountServiceShould.m; sourceTree = "<group>"; };
+		187CA74922F32B05000A4191 /* OCMockitoIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMockitoIOS.framework; path = BankKata/OCMockitoIOS.framework; sourceTree = "<group>"; };
+		187CA74A22F32B05000A4191 /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrestIOS.framework; path = BankKata/OCHamcrestIOS.framework; sourceTree = "<group>"; };
+		187CA75122F32D01000A4191 /* PrintStatementFeature.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintStatementFeature.m; sourceTree = "<group>"; };
+		187CA75322F337E7000A4191 /* Console.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Console.h; sourceTree = "<group>"; };
+		187CA75422F337E7000A4191 /* Console.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Console.m; sourceTree = "<group>"; };
+		187CA75722F338CC000A4191 /* AccountService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountService.h; sourceTree = "<group>"; };
+		187CA75822F338CC000A4191 /* AccountService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountService.m; sourceTree = "<group>"; };
+		187CA75B22F34630000A4191 /* Transaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		187CA75C22F34630000A4191 /* Transaction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		187CA75F22F3475E000A4191 /* DateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateHelper.h; sourceTree = "<group>"; };
+		187CA76022F3475E000A4191 /* DateHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateHelper.m; sourceTree = "<group>"; };
+		187CA76322F348AB000A4191 /* TranscationStoreShould.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TranscationStoreShould.m; sourceTree = "<group>"; };
+		187CA76522F34980000A4191 /* TranscationStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TranscationStore.h; sourceTree = "<group>"; };
+		187CA76622F34980000A4191 /* TranscationStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TranscationStore.m; sourceTree = "<group>"; };
+		187CA76922F35457000A4191 /* StatementPrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatementPrinter.h; sourceTree = "<group>"; };
+		187CA76A22F35457000A4191 /* StatementPrinter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatementPrinter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187CA71D22F3270A000A4191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187CA74B22F32B05000A4191 /* OCMockitoIOS.framework in Frameworks */,
+				187CA74D22F32B05000A4191 /* OCHamcrestIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187CA73522F3270D000A4191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187CA74C22F32B05000A4191 /* OCMockitoIOS.framework in Frameworks */,
+				187CA74E22F32B05000A4191 /* OCHamcrestIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187CA71722F3270A000A4191 = {
+			isa = PBXGroup;
+			children = (
+				187CA74A22F32B05000A4191 /* OCHamcrestIOS.framework */,
+				187CA74922F32B05000A4191 /* OCMockitoIOS.framework */,
+				187CA72222F3270A000A4191 /* BankKata */,
+				187CA73B22F3270D000A4191 /* BankKataTests */,
+				187CA72122F3270A000A4191 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187CA72122F3270A000A4191 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187CA72022F3270A000A4191 /* BankKata.app */,
+				187CA73822F3270D000A4191 /* BankKataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187CA72222F3270A000A4191 /* BankKata */ = {
+			isa = PBXGroup;
+			children = (
+				187CA72322F3270A000A4191 /* AppDelegate.h */,
+				187CA72422F3270A000A4191 /* AppDelegate.m */,
+				187CA72622F3270A000A4191 /* ViewController.h */,
+				187CA72722F3270A000A4191 /* ViewController.m */,
+				187CA72922F3270B000A4191 /* Main.storyboard */,
+				187CA72C22F3270D000A4191 /* Assets.xcassets */,
+				187CA72E22F3270D000A4191 /* LaunchScreen.storyboard */,
+				187CA73122F3270D000A4191 /* Info.plist */,
+				187CA73222F3270D000A4191 /* main.m */,
+				187CA75322F337E7000A4191 /* Console.h */,
+				187CA75422F337E7000A4191 /* Console.m */,
+				187CA75722F338CC000A4191 /* AccountService.h */,
+				187CA75822F338CC000A4191 /* AccountService.m */,
+				187CA75B22F34630000A4191 /* Transaction.h */,
+				187CA75C22F34630000A4191 /* Transaction.m */,
+				187CA75F22F3475E000A4191 /* DateHelper.h */,
+				187CA76022F3475E000A4191 /* DateHelper.m */,
+				187CA76522F34980000A4191 /* TranscationStore.h */,
+				187CA76622F34980000A4191 /* TranscationStore.m */,
+				187CA76922F35457000A4191 /* StatementPrinter.h */,
+				187CA76A22F35457000A4191 /* StatementPrinter.m */,
+			);
+			path = BankKata;
+			sourceTree = "<group>";
+		};
+		187CA73B22F3270D000A4191 /* BankKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				187CA73C22F3270D000A4191 /* BankKataTests.m */,
+				187CA73E22F3270D000A4191 /* Info.plist */,
+				187CA74722F3274F000A4191 /* AccountServiceShould.m */,
+				187CA75122F32D01000A4191 /* PrintStatementFeature.m */,
+				187CA76322F348AB000A4191 /* TranscationStoreShould.m */,
+			);
+			path = BankKataTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187CA71F22F3270A000A4191 /* BankKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187CA74122F3270D000A4191 /* Build configuration list for PBXNativeTarget "BankKata" */;
+			buildPhases = (
+				187CA71C22F3270A000A4191 /* Sources */,
+				187CA71D22F3270A000A4191 /* Frameworks */,
+				187CA71E22F3270A000A4191 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankKata;
+			productName = BankKata;
+			productReference = 187CA72022F3270A000A4191 /* BankKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187CA73722F3270D000A4191 /* BankKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187CA74422F3270D000A4191 /* Build configuration list for PBXNativeTarget "BankKataTests" */;
+			buildPhases = (
+				187CA73422F3270D000A4191 /* Sources */,
+				187CA73522F3270D000A4191 /* Frameworks */,
+				187CA73622F3270D000A4191 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187CA73A22F3270D000A4191 /* PBXTargetDependency */,
+			);
+			name = BankKataTests;
+			productName = BankKataTests;
+			productReference = 187CA73822F3270D000A4191 /* BankKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187CA71822F3270A000A4191 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Bhagirthsinh Vala";
+				TargetAttributes = {
+					187CA71F22F3270A000A4191 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					187CA73722F3270D000A4191 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 187CA71F22F3270A000A4191;
+					};
+				};
+			};
+			buildConfigurationList = 187CA71B22F3270A000A4191 /* Build configuration list for PBXProject "BankKata" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187CA71722F3270A000A4191;
+			productRefGroup = 187CA72122F3270A000A4191 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187CA71F22F3270A000A4191 /* BankKata */,
+				187CA73722F3270D000A4191 /* BankKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187CA71E22F3270A000A4191 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187CA73022F3270D000A4191 /* LaunchScreen.storyboard in Resources */,
+				187CA72D22F3270D000A4191 /* Assets.xcassets in Resources */,
+				187CA72B22F3270B000A4191 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187CA73622F3270D000A4191 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187CA71C22F3270A000A4191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187CA76722F34980000A4191 /* TranscationStore.m in Sources */,
+				187CA75D22F34630000A4191 /* Transaction.m in Sources */,
+				187CA72822F3270A000A4191 /* ViewController.m in Sources */,
+				187CA73322F3270D000A4191 /* main.m in Sources */,
+				187CA76B22F35457000A4191 /* StatementPrinter.m in Sources */,
+				187CA75922F338CC000A4191 /* AccountService.m in Sources */,
+				187CA76122F3475E000A4191 /* DateHelper.m in Sources */,
+				187CA72522F3270A000A4191 /* AppDelegate.m in Sources */,
+				187CA75522F337E7000A4191 /* Console.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187CA73422F3270D000A4191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187CA76822F34980000A4191 /* TranscationStore.m in Sources */,
+				187CA75222F32D01000A4191 /* PrintStatementFeature.m in Sources */,
+				187CA74822F3274F000A4191 /* AccountServiceShould.m in Sources */,
+				187CA73D22F3270D000A4191 /* BankKataTests.m in Sources */,
+				187CA76C22F35457000A4191 /* StatementPrinter.m in Sources */,
+				187CA75E22F34630000A4191 /* Transaction.m in Sources */,
+				187CA75622F337E7000A4191 /* Console.m in Sources */,
+				187CA76422F348AB000A4191 /* TranscationStoreShould.m in Sources */,
+				187CA76222F3475E000A4191 /* DateHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187CA73A22F3270D000A4191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187CA71F22F3270A000A4191 /* BankKata */;
+			targetProxy = 187CA73922F3270D000A4191 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187CA72922F3270B000A4191 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187CA72A22F3270B000A4191 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187CA72E22F3270D000A4191 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187CA72F22F3270D000A4191 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187CA73F22F3270D000A4191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		187CA74022F3270D000A4191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187CA74222F3270D000A4191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BankKata",
+				);
+				INFOPLIST_FILE = BankKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vala.BankKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		187CA74322F3270D000A4191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BankKata",
+				);
+				INFOPLIST_FILE = BankKata/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vala.BankKata;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		187CA74522F3270D000A4191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BankKata",
+				);
+				INFOPLIST_FILE = BankKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vala.BankKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankKata.app/BankKata";
+			};
+			name = Debug;
+		};
+		187CA74622F3270D000A4191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BankKata",
+				);
+				INFOPLIST_FILE = BankKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vala.BankKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BankKata.app/BankKata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187CA71B22F3270A000A4191 /* Build configuration list for PBXProject "BankKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187CA73F22F3270D000A4191 /* Debug */,
+				187CA74022F3270D000A4191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187CA74122F3270D000A4191 /* Build configuration list for PBXNativeTarget "BankKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187CA74222F3270D000A4191 /* Debug */,
+				187CA74322F3270D000A4191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187CA74422F3270D000A4191 /* Build configuration list for PBXNativeTarget "BankKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187CA74522F3270D000A4191 /* Debug */,
+				187CA74622F3270D000A4191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187CA71822F3270A000A4191 /* Project object */;
+}
